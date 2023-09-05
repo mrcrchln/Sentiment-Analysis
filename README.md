@@ -23,7 +23,7 @@ Additionally, you need to download the VADER sentiment lexicon by running the fo
 
 - The script removes anchor tags from the description of each news article to extract the URL.
 
-- The results are stored in a Pandas DataFrame for further analysis or visualization.
+- The results are stored in a Pandas DataFrame as well as .csv for further analysis or visualization.
 
 - You can adapt this script for different companies and use cases by changing the company_name variable and customizing the data processing and analysis as needed.
 
