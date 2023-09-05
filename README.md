@@ -3,14 +3,18 @@ This project is a Python script that extracts news articles related to a specifi
 
 ## Installation
 To use this script, you will need to have Python and the required libraries installed on your system. You can install the necessary libraries using pip:
-  ```
-  pip install feedparser nltk beautifulsoup4 pandas matplotlib
-  ```
+
+```
+pip install feedparser nltk beautifulsoup4 pandas matplotlib
+```
+
 Additionally, you need to download the VADER sentiment lexicon by running the following command:
-  ```
-  import nltk
-  nltk.download('vader_lexicon')
-  ```
+
+```
+import nltk
+nltk.download('vader_lexicon')
+```
+
 ## Usage
 1. Clone this repository to your local machine or download the script directly.
 2. Modify the company_name variable to specify the company you want to analyze. Replace "Aptiv" with the name of the desired company.
